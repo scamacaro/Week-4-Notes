@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--This is for notes purpose Live class 06/01/22 Sanyerlis Camacaro sancamac@uat.edu-->
+
+<html>
+    <script src="Live 6 3 22 login.js"></script>
+    <link href="Live 6 3 22 login.css" rel="stylesheet" type="text/css" />
+    <head>
+        <title> UAT Space Login</title>
+    </head>
+
+    <body>
+        <h1>
+            Welcome to Game Night!!!''
+        </h1>
+        <br>
+        <p id="loginStatus" class="loginID">Status of login...</p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            Event Name:      <input type="text" id="eventName" /> <br>
+            Theme:      <input type="text" id="theme" /> <br>
+            Number of Participants:   <input type="number" id="numPart" /> <br>
+            <input type="submit" onclick="checkCreds();" />
+        </form>
+    </body>
+
+    </html>
